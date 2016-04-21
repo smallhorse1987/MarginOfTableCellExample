@@ -18,7 +18,7 @@
 [UITableViewCell setSeparatorInset:UIEdgeInsetsMake(0,leftMargin,0,0)];  
 [UITableViewCell setLayoutMargins:UIEdgeInsetsMake(0,0,0,0)];  
 
-**注意：**
+**注意：**  
 setSeparatorInset 是iOS7.0开始提供的接口  
 setLayoutMargins  是iOS8.0开始的提供的接口
 
