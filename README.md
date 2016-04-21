@@ -21,3 +21,6 @@ setSeparatorInset 是iOS7.0开始提供的接口
 setLayoutMargins  是iOS8.0开始的提供的接口
 
 ##解决方案
+第一，经过多次尝试，首先tableview和tableviewcell的margin都必须设置为0。  
+第二，UITableView的SeparatorInset可以设置可以影响到所有的tableviewcell。  
+第三，UITableViewCell的SeparatorInset可以单独设置特定单元的分割线缩进。  
