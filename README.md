@@ -1,9 +1,11 @@
 # 【技巧】随心所欲设置表格分割线水平间距
 
 ##纠结的表格分割线
-问题1：单元格没有填完一整屏时，出现了填充的分割线，影响美观。
+问题1：单元格没有填完一整屏时，出现了填充的分割线，影响美观。（如图）
+![](https://github.com/smallhorse1987/MarginOfTableCellExample/blob/master/MarginOfCellSeparator/MarginOfCellSeparator/issue01.png)
 
-问题2：不管如何设置，分割线总是不能靠左对齐。
+问题2：不管如何设置，分割线总是不能靠左对齐。（如图）
+![](https://github.com/smallhorse1987/MarginOfTableCellExample/blob/master/MarginOfCellSeparator/MarginOfCellSeparator/issue02.png)
 
 问题3：表格里，有的单元格分割线要靠左对齐，有的要空10个point，有的不需要分割线。
 
@@ -29,4 +31,4 @@ setLayoutMargins  是iOS8.0开始的提供的接口
 第三，UITableViewCell的SeparatorInset可以单独设置特定单元的分割线缩进。  
 
 ##见效果
-
+![](https://github.com/smallhorse1987/MarginOfTableCellExample/blob/master/MarginOfCellSeparator/MarginOfCellSeparator/demo.png)
