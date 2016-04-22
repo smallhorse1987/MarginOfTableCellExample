@@ -10,7 +10,7 @@
 很多人不得不自己来绘制分割线。其实完全不必要，以下就是完全解决方案。
 
 ##与分割线相关的设置
-首先要了解所有会影响分割线相关的设置
+首先要了解所有会影响分割线相关的设置  
 1. UITableView  
 [UITableView setSeparatorInset:UIEdgeInsetsMake(0,leftMargin,0,0)];  
 [UITableView setLayoutMargins:UIEdgeInsetsMake(0,0,0,0)];  
