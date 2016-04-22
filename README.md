@@ -27,3 +27,6 @@ setLayoutMargins  是iOS8.0开始的提供的接口
 第一，要精准的控制分割线的左右间距，必须将tableview和tableviewcell的margin都必须设置为0。不要问我为什么，这是尝试了各种组合实践得出的结果。非常关键，也是很多人无法理解如何解决问题2）的根源。  
 第二，UITableView的SeparatorInset可以设置可以影响到所有的tableviewcell。  
 第三，UITableViewCell的SeparatorInset可以单独设置特定单元的分割线缩进。  
+
+##见效果
+
